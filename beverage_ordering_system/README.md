@@ -2,6 +2,8 @@
 #### Video Demo:  <https://www.youtube.com/watch?v=ftcg6AhjyKY>
 #### Description:
 
+This system is designed with java swing toolkit, the main page contains a combobox to choose your desired drink size from small, medium and large, then there are four radio buttons to select the type of drink you want there is juice and you can select different fruits you want, coffee if you want you can add milk to it, tea you can add your sugar and water if you want it cold you can add ice, below that there is a text field to type in the amount of drinks you'd like to order and it has to be an integer otherwise a pop up box will appear and warn you to select a number after that you can add your drinks, then when you order you get the total price of your drink(s).
+
 ## Label class
 this label class has all of the graphical user interface features from the actual label frame, buttons, to the text field that allows the user to type in how many glasses of drinks he would like to have. The label class has an override method actionPerformed that if the user clicks on the add item button it adds the drink chosen, and try catch exception that if the user clicks on the button without any input. This class also has that if the user clicks on order button it displays the order message with the price, size and amount of drinks ordered.
 
